@@ -1,3 +1,7 @@
 # YPay-Muhammad_Zahid-Test
 ## Information Screen
-![Untitled](https://github.com/1TSZACK/YPay-Muhammad_Zahid-Test/assets/95505665/7442f7b3-c5e3-4df6-9aa6-9ad0e2bee83f)
+![info-screen](https://github.com/1TSZACK/YPay-Muhammad_Zahid-Test/assets/95505665/ca8f02cb-2efb-4983-bebf-91597db16674)
+## Main Screen
+![main-screen](https://github.com/1TSZACK/YPay-Muhammad_Zahid-Test/assets/95505665/08a113d2-6967-4137-8a73-e343eef34486)
+## History Screen
+![history](https://github.com/1TSZACK/YPay-Muhammad_Zahid-Test/assets/95505665/39edcd92-7676-4826-8bb4-fb06cd63f317)
