@@ -1,6 +1,6 @@
 const initialState = {
     history : [
-        
+        // {number: 1, isOddEven: 'Odd'}
     ]
 };
 

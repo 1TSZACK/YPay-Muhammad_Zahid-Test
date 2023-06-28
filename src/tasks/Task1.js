@@ -36,14 +36,14 @@ function Task1({ navigation, route }) {
         if ( parseInt(number) % 2 == 0 ) {
             setOddEven('Even');
             // Implementation for Task 5 Performance if the number already exists in the history then it will not be stored in the history
-            if(!data.some( obj => obj.number === parseInt(number) ) ){
+            if(!data.history.some( obj => obj.number === parseInt(number) ) ){
                 dispatch(insertHistory(parseInt(number), 'Even'));
             }
         }
         else {
             setOddEven('Odd');
             // Implementation for Task 5 Performance if the number already exists in the history then it will not be stored in the history
-            if(!data.some( obj => obj.number === parseInt(number) ) ){
+            if(!data.history.some( obj => obj.number === parseInt(number) ) ){
                 dispatch(insertHistory(parseInt(number), 'Even'));
             }
         }
@@ -53,7 +53,7 @@ function Task1({ navigation, route }) {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Welcome {name+'\nAge: '+age}</Text>
-            <Text style={styles.title}>Odd/Zven</Text>
+            <Text style={styles.title}>Odd/Even</Text>
 
             <TextInput keyboardType='numeric' value={number} onChangeText={(e) => { setNumber(e.replace(/[^0-9]/g, '')); }} style={styles.input} placeholder='Enter Number' placeholderTextColor={'white'} place></TextInput>
             
