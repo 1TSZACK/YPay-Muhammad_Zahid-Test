@@ -44,7 +44,7 @@ function Task1({ navigation, route }) {
             setOddEven('Odd');
             // Implementation for Task 5 Performance if the number already exists in the history then it will not be stored in the history
             if(!data.history.some( obj => obj.number === parseInt(number) ) ){
-                dispatch(insertHistory(parseInt(number), 'Even'));
+                dispatch(insertHistory(parseInt(number), 'Odd'));
             }
         }
 
